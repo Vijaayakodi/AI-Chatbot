@@ -1,0 +1,153 @@
+/* Hide Streamlit Branding */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* App Background */
+
+.stApp {
+    background: #0F172A;
+    color: white;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background: #111827;
+}
+
+/* Sidebar text */
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* Buttons */
+
+.stButton>button {
+
+    width: 100%;
+
+    border-radius: 12px;
+
+    background: #2563EB;
+
+    color: white;
+
+    border: none;
+
+    height: 45px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+
+    background: #1D4ED8;
+
+    transform: scale(1.02);
+}
+
+/* Chat Bubble */
+
+/* User message */
+
+[data-testid="stChatMessage"] p{
+    color:white !important;
+}
+
+/* Markdown */
+
+[data-testid="stMarkdownContainer"]{
+    color:white !important;
+}
+
+/* Assistant text */
+
+[data-testid="stChatMessageContent"]{
+    color:white !important;
+}
+
+/* All normal text */
+
+span,
+p,
+label,
+div{
+    color:white;
+}
+/* Input */
+
+/* ===========================
+   Chat Input Container
+=========================== */
+
+[data-testid="stChatInput"]{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Main Input Box */
+
+[data-testid="stChatInput"] > div{
+    background: #1b2333 !important;
+    border: 1px solid #2e3a55 !important;
+    border-radius: 18px !important;
+    padding: 8px 12px !important;
+    transition: all .25s ease;
+}
+
+/* Hover */
+
+[data-testid="stChatInput"] > div:hover{
+    border-color:#4f8cff !important;
+}
+
+/* Focus */
+
+[data-testid="stChatInput"] > div:focus-within{
+    border-color:#5b8dff !important;
+    box-shadow:0 0 0 3px rgba(91,141,255,.25);
+}
+
+/* Text */
+
+[data-testid="stChatInput"] textarea{
+    color:white !important;
+    font-size:16px !important;
+    background:transparent !important;
+}
+
+/* Placeholder */
+
+[data-testid="stChatInput"] textarea::placeholder{
+    color:#8b95a7 !important;
+}
+
+/* Send Button */
+
+[data-testid="stChatInput"] button{
+    background:#4f8cff !important;
+    border:none !important;
+    border-radius:12px !important;
+    width:42px !important;
+    height:42px !important;
+    transition:.2s;
+}
+
+[data-testid="stChatInput"] button:hover{
+    background:#6da4ff !important;
+    transform:scale(1.05);
+}

@@ -8,3 +8,22 @@ __pycache__/
 data/chat_history.json
 
 .streamlit/
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit cache
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Chat history
+data/chat_history.json
