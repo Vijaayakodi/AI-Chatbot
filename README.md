@@ -6,7 +6,7 @@ A modern AI chatbot built with **Python**, **Streamlit**, and **Google Gemini AI
 
 ## 📸 Preview
 
-> *Add a screenshot of your chatbot UI here.*
+
 
 Example:
 
